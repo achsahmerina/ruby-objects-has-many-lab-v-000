@@ -9,8 +9,8 @@ class Post
   def post
     @post
   end
-  
-  def author_name
+
+  def author_name(author)
     post.author_name = self
   end
 end
