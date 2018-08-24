@@ -10,4 +10,7 @@ class Post
     @post
   end
 
+  def author_name
+  end
+
 end
