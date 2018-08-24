@@ -10,7 +10,4 @@ class Post
     @post
   end
 
-  def author_name(author)
-    @author_name = self
-  end
 end
