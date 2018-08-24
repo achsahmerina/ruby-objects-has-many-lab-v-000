@@ -16,7 +16,7 @@ class Post
   end
 
   def author_name
-    @post << name
+    @post << author_name.new
   end
 
 end
