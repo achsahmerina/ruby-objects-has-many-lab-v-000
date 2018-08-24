@@ -11,6 +11,7 @@ class Post
   end
 
   def author_name
+    return author
   end
 
 end
