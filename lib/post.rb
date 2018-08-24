@@ -6,6 +6,9 @@ class Post
     @@all << self
   end
 
+  def post
+    @post
+  end
   def author_name
     post.author_name = self
   end
