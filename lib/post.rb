@@ -6,7 +6,7 @@ class Post
     @@all << self
   end
 
-  def author_name(author)
+  def author_name
     post.author_name = self
   end
 end
