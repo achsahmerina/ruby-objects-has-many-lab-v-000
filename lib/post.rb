@@ -8,5 +8,6 @@ class Post
 
   def author_name(author)
     author = author.new(author_name)
+    post.author = self
   end
 end
