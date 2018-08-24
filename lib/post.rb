@@ -3,6 +3,7 @@ class Post
   attr_accessor :title, :author, :name
   def initialize(title)
     @title = title
+    @name = name
     @@all << self
   end
 
